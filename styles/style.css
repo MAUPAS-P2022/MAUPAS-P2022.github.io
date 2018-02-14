@@ -1,13 +1,12 @@
 h1 {
   font-family: 'Futura';
+  text-align: center;
   margin-top: 40px;
 }
 body {
 background: #f8b366;
 }
 img {
-  margin-left: 150px;
-  margin-right: 100px;
-	width: 720px;
+  width: 720px;
 	height: 420px;
 }
