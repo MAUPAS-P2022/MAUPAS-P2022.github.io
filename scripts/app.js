@@ -5,13 +5,13 @@ array[i] = 0
 }
 document.write(array)*/
 
-let valeur = parseInt(window.prompt("Quelle est la taille de votre pénis ?"))
+let valeur = parseInt(window.prompt("Quelle est la taille en nanomètre de votre pénis ?"))
 let tab = [valeur]
 let positif = 0
 let negatif = 0
 
 for(i = 0; i < valeur; i++){
-  tab[i] = parseInt(window.prompt("De combien voulez-vous l'agrandir ?"))
+  tab[i] = parseInt(window.prompt("De combien voulez-vous l'agrandir (en kilomètres) ?"))
 }
 for(i = 0; i < valeur; i++){
   if(tab[i] < 0){
