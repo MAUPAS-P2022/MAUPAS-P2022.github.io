@@ -9,4 +9,6 @@ background: #f8b366;
 img {
   width: 720px;
 	height: 420px;
+  margin-left: 0 auto;
+  margin-right:0 auto;
 }
