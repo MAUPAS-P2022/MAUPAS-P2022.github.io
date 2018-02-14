@@ -1,10 +1,3 @@
-/*let array = new Array
-
-for (let i = 0; i < 7; i++) {
-array[i] = 0
-}
-document.write(array)*/
-
 let valeur = parseInt(window.prompt("Quelle est la taille en nanomètre de votre pénis ?"))
 let tab = [valeur]
 let positif = 0
