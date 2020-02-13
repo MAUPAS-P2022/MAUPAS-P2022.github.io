@@ -237,7 +237,7 @@ header {
         
     }
 
-    .gallery {
-        width: 80%;
-      }
+    #images img{
+        width:70%;
+    }
   }
