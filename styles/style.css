@@ -1,15 +1,239 @@
-h1 {
-  font-family: 'Futura';
-  text-align: center;
-  font-size: 40px;
+*{
+    padding:0;
+    margin:0;
 }
-body {
-background: #f8b366;
+
+html{
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    
 }
-img {
-  display: block;
-  width: 720px;
-	height: 420px;
-  margin-left: auto;
-  margin-right: auto;
+
+body{
 }
+
+
+
+
+
+#logo {
+    padding-top: 90px;
+    text-align: center;
+    animation: logo_opacity1 500ms 0ms linear forwards;
+}
+
+#coin {
+    padding-top: 10px; 
+    position: absolute;
+    padding-left: 10px; 
+}
+
+@keyframes logo_opacity1 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#click {
+    text-align: center;
+    padding-top: 25px;
+    font-family: Archer;
+    animation: click_here_opacity1 1000ms 0ms linear forwards;
+}
+
+@keyframes click_here_opacity1 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.container {
+    padding-top: 50px;
+}
+
+.lign1 {
+    text-align: center;
+    font-family: ArcherPro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 60px;
+    color: white;
+    animation: Hello_opacity_1 500ms 0ms linear forwards;
+}
+
+
+
+header {
+    height:100vh;
+    background-color: #A7D5FF;
+    
+}
+
+.lign2 {
+    text-align: center;
+    font-family: ArcherPro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: #44A5FF;
+    animation: I’m_Gabriel_MAUPAS__opacity__1 500ms 0ms linear forwards, I’m_Gabriel_MAUPAS__opacity__2 500ms 500ms linear forwards;
+}
+
+
+
+@keyframes I’m_Gabriel_MAUPAS__opacity__1 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+@keyframes I’m_Gabriel_MAUPAS__opacity__2 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.lign3 {
+    text-align: center;
+    font-family: ArcherPro;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 55px;
+    font-size: 35px;
+    color: white;
+    animation: webdesigner_1 1500ms 0ms linear forwards, webdesigner_2 500ms 1500ms linear forwards;
+}
+
+@keyframes webdesigner_1 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+@keyframes webdesigner_2 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+#page2{
+    background-color: white;
+    
+}
+
+
+#coin2 {
+    padding-top: 10px; 
+    position: absolute;
+    padding-left: 10px; 
+}
+
+#home {
+    cursor: pointer;
+    position: relative;
+    margin-left: 95px;
+    margin-top: 60px;
+}
+
+.work {
+    margin-top:30px;
+    text-align: center;
+    font-family: 'Archer';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 60px;
+    color: #44A5FF;
+    margin-bottom: 30px;
+}
+
+#images, .image{
+    text-align: center;
+    flex-direction: column;
+}
+
+#images img{
+    width:50%;
+}
+
+.gallery {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    padding-bottom: 3px;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-left: 50%;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    left: 100%;
+    
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .gallery:hover .image {
+    opacity: 0.5;
+  }
+  
+  .gallery:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    width: 200px;
+    color: black;
+    font-size: 130%;
+    margin-bottom:100px;
+    font-family: 'Archer';
+    
+  }
+
+  @media screen and (max-width : 720px) {   
+    header{
+        height:815px;
+    }
+
+    .work {
+        font-size: 30px;
+        margin-bottom: 15px;
+        
+    }
+  }
