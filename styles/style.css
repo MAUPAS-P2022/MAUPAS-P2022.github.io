@@ -241,9 +241,5 @@ header {
     .lign1, .lign2, .lign3, .work, .text{
         font-family:'futura';
     }
-
-    #click{
-        display:none;
-    }
     
   }
