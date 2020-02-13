@@ -236,4 +236,8 @@ header {
         margin-bottom: 15px;
         
     }
+
+    .gallery {
+        width: 70%;
+      }
   }
