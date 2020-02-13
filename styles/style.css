@@ -81,7 +81,7 @@ header {
 
 .lign2 {
     text-align: center;
-    font-family: ArcherPro;
+    font-family: 'ArcherPro';
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
@@ -237,12 +237,10 @@ header {
         
     }
 
-    #images img{
-        width:70%;
+
+    .lign1, .lign2, .lign3, .work, .text{
+        font-family:'futura';
     }
 
-    .gallery {
-        position: relative;
-        width: 80%;
-      }
+    
   }
