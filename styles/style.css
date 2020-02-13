@@ -179,6 +179,9 @@ header {
     flex-direction: column;
 }
 
+#images img{
+    width:50%;
+}
 
 .gallery {
     position: relative;
