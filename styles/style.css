@@ -229,8 +229,7 @@ header {
 
   @media screen 
   and (device-width : 414px) 
-  and (device-height : 896px) 
-  and (-webkit-device-pixel-ratio : 2) { 
+  and (device-height : 896px) { 
 
     header{
         height:815px;
@@ -261,6 +260,7 @@ header {
 
     #logo img{
         width:30%;
+        padding-top: 50px;
     }
 
     
