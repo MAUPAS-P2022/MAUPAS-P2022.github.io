@@ -242,11 +242,11 @@ header {
 
     .lign1, .lign2, .lign3, .work, .text{
         font-family:'futura';
-        font-size:200%;
+        font-size:150%;
     }
 
     .container {
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
     #click{
