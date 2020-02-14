@@ -232,7 +232,7 @@ header {
   and (device-height : 896px) { 
 
     header{
-        height:600px;
+        height:550px;
     }
 
     .work {
@@ -248,7 +248,7 @@ header {
     }
 
     .lign3{
-        font-size:30px;
+        font-size:28px;
     }
 
     .container {
