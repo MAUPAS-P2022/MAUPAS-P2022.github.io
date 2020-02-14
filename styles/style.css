@@ -9,7 +9,9 @@ html{
     
 }
 
-
+body{
+    overflow-y: hidden;
+}
 
 
 
@@ -144,7 +146,7 @@ header {
 
 #page2{
     background-color: white;
-    
+    overflow-y: scroll;
     height: 100%;
 }
 
