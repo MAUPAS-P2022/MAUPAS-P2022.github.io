@@ -233,6 +233,7 @@ header {
 
     header{
         height:700px;
+        overflow-y: hidden;
     }
 
     .work {
@@ -266,6 +267,7 @@ header {
         padding-top: 50px;
     }
 
+    
     
     
   }
