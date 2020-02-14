@@ -242,12 +242,21 @@ header {
 
     .lign1, .lign2, .lign3, .work, .text{
         font-family:'futura';
-        font-size:220%;
+        font-size:200%;
+    }
+
+    .container {
+        padding-top: 20px;
     }
 
     #click{
         padding-top: 10px;
+        
 
+    }
+
+    #logo img{
+        width:30%;
     }
 
     
