@@ -238,6 +238,10 @@ header {
         
     }
 
+    .gallery:first-child .text{
+        font-size: 170%;
+    }
+
 
     .lign1, .lign2, .lign3, .work, .text{
         font-family:'futura';
